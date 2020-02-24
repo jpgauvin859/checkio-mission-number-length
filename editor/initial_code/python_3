@@ -1,6 +1,6 @@
 def number_length(a: int) -> int:
     # your code here
-    return len(str(a))
+    return None
 
 
 if __name__ == '__main__':
