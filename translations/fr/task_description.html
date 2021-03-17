@@ -1,0 +1,34 @@
+<!-- Describe task in general -->
+
+<p>
+    Vous avez un entier positif. Essayez de savoir combien il y a de chiffres dans le nombre entier.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+    <strong>Entrée: </strong> Un entier positif
+</p>
+
+<p>
+    <strong>Sortie: </strong> Un entier. 
+</p>
+
+
+<!-- Give some usage examples -->
+<div class="for_info_only">
+    <p>
+        <strong>Exemple:</strong>
+    </p>
+
+{% if interpreter.slug == "js-node" %}
+<pre class="brush: javascript">numberLength(10) == 2
+numberLength(0) == 1
+numberLength(4) == 1
+numberLength(44) == 2
+</pre>
+{% else %}
+<pre class="brush: python">number_length(10) == 2
+number_length(0) == 1
+</pre>
+{% endif %}
+</div>
